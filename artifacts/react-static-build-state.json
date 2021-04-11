@@ -16,29 +16,29 @@
   "entry": "index.js",
   "plugins": [
     [
-      "D:\\GoodJob\\web\\staticPersonnel\\personnel\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      "D:\\GoodJob\\web\\staticPersonnel\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
       {
-        "location": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\src\\pages"
+        "location": "D:\\GoodJob\\web\\staticPersonnel\\src\\pages"
       }
     ],
-    "D:\\GoodJob\\web\\staticPersonnel\\personnel\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
-    "D:\\GoodJob\\web\\staticPersonnel\\personnel\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
-    "D:\\GoodJob\\web\\staticPersonnel\\personnel"
+    "D:\\GoodJob\\web\\staticPersonnel\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "D:\\GoodJob\\web\\staticPersonnel\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "D:\\GoodJob\\web\\staticPersonnel"
   ],
   "paths": {
-    "ROOT": "D:\\GoodJob\\web\\staticPersonnel\\personnel",
-    "SRC": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\src",
-    "DIST": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\dist",
-    "ASSETS": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\dist",
-    "PLUGINS": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\plugins",
-    "TEMP": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\tmp",
-    "ARTIFACTS": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\artifacts",
-    "PUBLIC": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\public",
-    "NODE_MODULES": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\node_modules",
-    "EXCLUDE_MODULES": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\node_modules",
-    "PACKAGE": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\package.json",
-    "HTML_TEMPLATE": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\dist\\index.html",
-    "STATIC_DATA": "D:\\GoodJob\\web\\staticPersonnel\\personnel\\dist\\staticData"
+    "ROOT": "D:\\GoodJob\\web\\staticPersonnel",
+    "SRC": "D:\\GoodJob\\web\\staticPersonnel\\src",
+    "DIST": "D:\\GoodJob\\web\\staticPersonnel\\dist",
+    "ASSETS": "D:\\GoodJob\\web\\staticPersonnel\\dist",
+    "PLUGINS": "D:\\GoodJob\\web\\staticPersonnel\\plugins",
+    "TEMP": "D:\\GoodJob\\web\\staticPersonnel\\tmp",
+    "ARTIFACTS": "D:\\GoodJob\\web\\staticPersonnel\\artifacts",
+    "PUBLIC": "D:\\GoodJob\\web\\staticPersonnel\\public",
+    "NODE_MODULES": "D:\\GoodJob\\web\\staticPersonnel\\node_modules",
+    "EXCLUDE_MODULES": "D:\\GoodJob\\web\\staticPersonnel\\node_modules",
+    "PACKAGE": "D:\\GoodJob\\web\\staticPersonnel\\package.json",
+    "HTML_TEMPLATE": "D:\\GoodJob\\web\\staticPersonnel\\dist\\index.html",
+    "STATIC_DATA": "D:\\GoodJob\\web\\staticPersonnel\\dist\\staticData"
   },
   "siteRoot": "/",
   "basePath": "",
