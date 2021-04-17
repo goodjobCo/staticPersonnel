@@ -1252,20 +1252,12 @@ function NormalUserDataViewAndEdit(props) {
   }, /*#__PURE__*/external_react_default.a.createElement(external_formik_["Field"], {
     name: "project"
   }, function () {
-    return /*#__PURE__*/external_react_default.a.createElement(external_antd_["Select"], {
-      defaultValue: "\u8CA0\u8CAC\u5C08\u6848",
-      style: {
-        width: '100%'
-      },
-      onChange: function onChange(value) {
-        return handleChange('project', value);
+    return /*#__PURE__*/external_react_default.a.createElement(external_antd_["Input"], {
+      placeholder: "\u8CA0\u8CAC\u5C08\u6848",
+      onChange: function onChange(event) {
+        return handleChange('project', event.target.value);
       }
-    }, projectName.map(function (value) {
-      return /*#__PURE__*/external_react_default.a.createElement(Option, {
-        key: value.id,
-        value: value.name
-      }, value.name);
-    }));
+    });
   }))), /*#__PURE__*/external_react_default.a.createElement(external_antd_["Col"], {
     xs: 24
   }, /*#__PURE__*/external_react_default.a.createElement(external_antd_["Form"].Item, {
