@@ -149,8 +149,10 @@ function NormalUserDataViewAndEdit(props) {
                         help={getHelpByFieldName('project')}
                         validateStatus={getValidateStatusByFieldName('project')}
                     >
+                        
                         <Field name="project" >
-                            {
+                        {() => (<Input placeholder="負責專案" onChange={event => handleChange('project', event.target.value)} />)}
+                            {/* {
                                 () => {
                                     return (
                                         <Select defaultValue="負責專案" style={{ width: '100%' }} onChange={value => handleChange('project', value)} >
@@ -160,7 +162,7 @@ function NormalUserDataViewAndEdit(props) {
                                         </Select>
                                     )
                                 }
-                            }
+                            } */}
                         </Field>
                     </Form.Item>
                 </Col>
